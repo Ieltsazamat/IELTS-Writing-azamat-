@@ -1,0 +1,47 @@
+body{ 
+    background: linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+p{
+    text-shadow: 1px 1px 1px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+font-style: italic;
+border-style: outset;
+border-width: 6px;
+border-color: gold;
+padding: 6px;
+
+}
+h1, h2, h3, h4{
+    text-shadow: 2px 2px 2px grey;
+    border-style: outset;
+    border-bottom-style:dotted;
+    border-left-style: dashed;
+    border: left width 12px;
+    border-left-color: silver;
+    font-family: press start 2P;
+}
+#box1{
+    width: 600px;
+    height: 100px;
+    background: orange;
+    font-size 50px;
+    text-align: center;
+
+    animation: mySlide
+    animation-play-state: running;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    animation-timing-function; ease-in;
+    animation-duration: 7s;
+}
+
+@keyframes mySlide{
+    from{margin: left 100%;
+    to{margin-left: 0%;}
+    }
+}
+]
